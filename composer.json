@@ -1,0 +1,22 @@
+{
+    "name": "avzaitsev/yii2-crud",
+    "description": "CRUD controller",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," crud controller"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Aliaksei Zaitsau",
+            "email": "zaitsev_av@outlook.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "kartik-v/yii2-grid": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "AVZaitsev\\crud\\": ""
+        }
+    }
+}
